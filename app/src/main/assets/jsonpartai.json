@@ -1,0 +1,201 @@
+{
+  "data": {
+    "results": {
+      "count": 15,
+      "partai": [
+        {
+          "id": "1",
+             "kursi" : 35,
+          "nama": "Partai NasDem",
+          "nama_lengkap": "Partai NasDem",
+          "url_situs": "http:\/\/www.partainasdem.org\/",
+          "url_facebook": "https:\/\/www.facebook.com\/pages\/Partai-Nasdem\/135724689838285",
+          "url_twitter": "https:\/\/twitter.com\/NasDem",
+          "url_logo_mini": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/01-17.jpg",
+          "url_logo_small": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/01-100.jpg",
+          "url_logo_medium": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/01-200.jpg",
+          "colors": [
+            "#011C53",
+            "#F4AE01"
+          ]
+        },
+        {
+          "id": "10",
+             "kursi" : 16,
+          "nama": "Partai Hanura",
+          "nama_lengkap": "Partai Hati Nurani Rakyat",
+          "url_situs": "http:\/\/www.hanura.com\/",
+          "url_facebook": "https:\/\/www.facebook.com\/hanura.official",
+          "url_twitter": "https:\/\/twitter.com\/hanura_official",
+          "url_logo_mini": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/10-17.jpg",
+          "url_logo_small": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/10-100.jpg",
+          "url_logo_medium": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/10-200.jpg",
+          "colors": [
+            "#E2932E",
+            "#ED1B24"
+          ]
+        },
+
+        {
+          "id": "14",
+             "kursi" : 39,
+          "nama": "PBB",
+          "nama_lengkap": "Partai Bulan Bintang",
+          "url_situs": "http:\/\/www.bulan-bintang.org\/",
+          "url_facebook": "https:\/\/www.facebook.com\/pages\/DPP-Partai-Bulan-Bintang-wwwbulan-bintangorg\/114716555303039",
+          "url_twitter": "https:\/\/twitter.com\/BulanBintangOrg",
+          "url_logo_mini": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/14-17.jpg",
+          "url_logo_small": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/14-100.jpg",
+          "url_logo_medium": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/14-200.jpg",
+          "colors": [
+            "#044D32",
+            "#FBC932"
+          ]
+        },
+        {
+          "id": "15",
+          "nama": "PKPI",
+          "nama_lengkap": "Partai Keadilan dan Persatuan Indonesia",
+          "url_situs": "http:\/\/pkpi.or.id\/",
+          "url_facebook": "https:\/\/www.facebook.com\/PKPI.MediaCenter",
+          "url_twitter": "https:\/\/twitter.com\/SobatBangYos",
+          "url_logo_mini": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/15-17.jpg",
+          "url_logo_small": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/15-100.jpg",
+          "url_logo_medium": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/15-200.jpg",
+          "colors": [
+            "#D9241B",
+            "#FFFFFF"
+          ]
+        },
+        {
+          "id": "2",
+             "kursi" : 47,
+          "nama": "PKB",
+          "nama_lengkap": "Partai Kebangkitan Bangsa",
+          "url_situs": "http:\/\/www.dpp.pkb.or.id\/",
+          "url_facebook": "https:\/\/www.facebook.com\/pages\/DPP-PKB\/167600963307010",
+          "url_twitter": "https:\/\/twitter.com\/PKB_News_Online",
+          "url_logo_mini": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/02-17.jpg",
+          "url_logo_small": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/02-100.jpg",
+          "url_logo_medium": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/02-200.jpg",
+          "colors": [
+            "#028B3B",
+            "#FAE42C"
+          ]
+        },
+        {
+          "id": "3",
+             "kursi" : 40,
+          "nama": "PKS",
+          "nama_lengkap": "Partai Keadilan Sejahtera",
+          "url_situs": "http:\/\/www.pks.or.id\/",
+          "url_facebook": "https:\/\/www.facebook.com\/HumasPartaiKeadilanSejahtera",
+          "url_twitter": "https:\/\/twitter.com\/PKSejahtera",
+          "url_logo_mini": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/03-17.jpg",
+          "url_logo_small": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/03-100.jpg",
+          "url_logo_medium": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/03-200.jpg",
+          "colors": [
+            "#F2B938",
+            "#000000"
+          ]
+        },
+        {
+          "id": "4",
+          "kursi" : 109,
+          "nama": "PDI-P",
+          "nama_lengkap": "Partai Demokrasi Indonesia Perjuangan",
+          "url_situs": "http:\/\/www.pdiperjuangan.or.id\/",
+          "url_facebook": "https:\/\/www.facebook.com\/DPP.PDI.Perjuangan",
+          "url_twitter": "https:\/\/twitter.com\/pdi_perjuangan",
+          "url_logo_mini": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/04-17.jpg",
+          "url_logo_small": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/04-100.jpg",
+          "url_logo_medium": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/04-200.jpg",
+          "colors": [
+            "#FE0002",
+            "#000000"
+          ]
+        },
+        {
+          "id": "5",
+          "kursi" : 91,
+          "nama": "Partai Golkar",
+          "nama_lengkap": "Partai Golongan Karya",
+          "url_situs": "http:\/\/www.golkar.or.id\/",
+          "url_facebook": "https:\/\/www.facebook.com\/DPPPartaiGolkar",
+          "url_twitter": "https:\/\/twitter.com\/Golkar5",
+          "url_logo_mini": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/05-17.jpg",
+          "url_logo_small": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/05-100.jpg",
+          "url_logo_medium": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/05-200.jpg",
+          "colors": [
+            "#FFD64C",
+            "#007F20"
+          ]
+        },
+        {
+          "id": "6",
+          "kursi" : 73,
+          "nama": "Partai GERINDRA",
+          "nama_lengkap": "Partai Gerakan Indonesia Raya",
+          "url_situs": "http:\/\/www.partaigerindra.or.id\/",
+          "url_facebook": "https:\/\/www.facebook.com\/gerindra",
+          "url_twitter": "https:\/\/twitter.com\/Gerindra",
+          "url_logo_mini": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/06-17.jpg",
+          "url_logo_small": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/06-100.jpg",
+          "url_logo_medium": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/06-200.jpg",
+          "colors": [
+            "#DC261B",
+            "#FFCD04"
+          ]
+        },
+        {
+          "id": "7",
+          "kursi" : 61,
+          "nama": "Demokrat",
+          "nama_lengkap": "Partai Demokrat",
+          "url_situs": "http:\/\/www.demokrat.or.id\/",
+          "url_facebook": "https:\/\/www.facebook.com\/pdemokrat",
+          "url_twitter": "https:\/\/twitter.com\/PDemokrat",
+          "url_logo_mini": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/07-17.jpg",
+          "url_logo_small": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/07-100.jpg",
+          "url_logo_medium": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/07-200.jpg",
+          "colors": [
+            "#92C4E9",
+            "#23429C",
+            "#E41F28"
+          ]
+        },
+        {
+          "id": "8",
+          "kursi" : 49,
+          "nama": "PAN",
+          "nama_lengkap": "Partai Amanat Nasional",
+          "url_situs": "http:\/\/www.pan.or.id\/",
+          "url_facebook": "https:\/\/www.facebook.com\/amanatnasional",
+          "url_twitter": "https:\/\/twitter.com\/official_PAN",
+          "url_logo_mini": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/08-17.jpg",
+          "url_logo_small": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/08-100.jpg",
+          "url_logo_medium": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/08-200.jpg",
+          "colors": [
+            "#263C88",
+            "#FFFFFF"
+          ]
+        },
+        {
+          "id": "9",
+          "nama": "PPP",
+          "nama_lengkap": "Partai Persatuan Pembangunan",
+          "url_situs": "http:\/\/www.ppp.or.id\/",
+          "url_facebook": "https:\/\/www.facebook.com\/pppdpp",
+          "url_twitter": "https:\/\/twitter.com\/DPP_PPP",
+          "url_logo_mini": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/09-17.jpg",
+          "url_logo_small": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/09-100.jpg",
+          "url_logo_medium": "http:\/\/apipemilu-caleg.s3-website-ap-southeast-1.amazonaws.com\/partai\/logos\/09-200.jpg",
+          "colors": [
+            "#185F25",
+            "#E9A715"
+          ]
+        }
+      ]
+    }
+  }
+}

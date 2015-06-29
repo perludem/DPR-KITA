@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:visibility="gone" />
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        style="@style/Widget.AppCompat.ActionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/white"
+        card_view:cardBackgroundColor="@color/white"
+        card_view:cardElevation="@dimen/cardview_default_elevation"
+        card_view:cardUseCompatPadding="@bool/abc_action_bar_expanded_action_views_exclusive">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_row"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+
+                    android:id="@+id/img_profile"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/border_image_view"
+                    android:scaleType="centerCrop" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/nama_lengkap"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="-"
+                            android:textAppearance="@style/TextAppearance.FontPath"
+                            android:textSize="12sp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_posting"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:textAppearance="@style/TextAppearance.FontPath"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/img_posting"
+                        android:layout_width="120dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="8dp"
+                        android:adjustViewBounds="true"
+                        android:scaleType="centerInside" />
+
+                    <TextView
+                        android:id="@+id/tv_date_posting"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="-"
+                        android:textAppearance="@style/TextAppearance.FontPath.Light"
+                        android:textSize="10sp" />
+
+                </LinearLayout>
+
+                <android.widget.IconButton
+                    android:id="@+id/popupmenu"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="right|center"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.1"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/lapor"
+                    android:gravity="right|top"
+                    android:textSize="20sp"
+                    android:text="{fa-ellipsis-v}" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:orientation="horizontal">
+
+                <android.widget.IconButton
+                    android:id="@+id/btn_report"
+                    style="@style/Widget.AppCompat.ActionButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:text="{fa_ban} LAPORKAN"
+                    android:textColor="@color/button_material_dark"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+
+                <android.widget.IconButton
+                    android:id="@id/btn_comment"
+                    style="@style/Widget.AppCompat.ActionButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="right"
+                    android:text="{fa_reply} TANGGAPAN"
+                    android:textColor="@color/button_material_dark"
+                    android:textSize="12sp"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

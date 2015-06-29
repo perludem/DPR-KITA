@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="laporkat_subject" type="id">Laporkan posting ini dari</item>
+    <item name="laporka_subject" type="id">Laporkan posting dari</item>
+
+</resources>

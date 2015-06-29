@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:title="Cari"
+        android:icon="@drawable/abc_ic_search_api_mtrl_alpha"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+    <!--<item android:id="@+id/action_location" android:title="@string/my_location"-->
+
+    <!--android:orderInCategory="100"-->
+    <!--app:showAsAction="always"-->
+    <!--/>-->
+    <item
+        android:id="@+id/action_profile"
+        android:orderInCategory="100"
+        android:title="Profil"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="Logout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_login"
+        android:orderInCategory="100"
+        android:title="Login"
+        app:showAsAction="never" />
+</menu>

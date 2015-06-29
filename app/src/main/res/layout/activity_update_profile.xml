@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:baselineAligned="false">
+
+    <include layout="@layout/toolbar_default" />
+    <LinearLayout
+        android:padding="30dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top">\
+
+    <ImageView
+        android:id="@+id/id_image_profile"
+        android:src="@drawable/ic_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/fullname"
+            style="@style/MyEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Nama Lengkap"
+            android:inputType="textPersonName"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/email"
+            style="@style/MyEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/inp_hp"
+            style="@style/MyEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="No Handphone"
+
+            android:imeActionLabel="Register"
+            android:imeOptions="actionUnspecified"
+            android:inputType="phone"
+            android:singleLine="true" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/selector_button"
+            android:text="@string/update_profile"
+            android:textColor="@color/white"
+            android:onClick="updateProfile"
+            android:textStyle="bold" />
+
+
+        <TextView
+
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/update_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/change_password"
+            android:textStyle="bold"
+            style="@style/Base.TextAppearance.AppCompat.Button"
+            />
+
+    </LinearLayout>
+</LinearLayout>

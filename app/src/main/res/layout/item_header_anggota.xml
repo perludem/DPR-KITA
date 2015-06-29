@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_row"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp">
+
+    <ImageView
+        android:id="@+id/img_profile_dapil"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_marginRight="8dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/border_image_view"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nama_lengkap_dapil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Ledia Hanifa Amaliah"
+            android:textAppearance="@style/TextAppearance.FontPath"
+            android:textColor="@color/primary_text"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_partai_dapil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/nama_lengkap_dapil"
+            android:layout_alignBottom="@+id/nama_lengkap_dapil"
+            android:layout_alignEnd="@+id/tv_komisi_dapil"
+            android:layout_alignRight="@+id/tv_komisi_dapil"
+            android:layout_gravity="center_vertical"
+            android:text="Fraksi : PKS" />
+
+        <TextView
+            android:id="@+id/tv_komisi_dapil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginBottom="5dp"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:maxLines="2"
+            android:text="Komisi VIII - Agama, Sosial, Pemberdayaan Perempuan"
+            android:textAppearance="@style/TextAppearance.FontPath"
+            android:textColor="@color/secondary_text_default_material_light"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+</LinearLayout>

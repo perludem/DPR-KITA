@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="id.gits.dprkita.fragment.PartaiFragment">
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/abc_ab_share_pack_mtrl_alpha"
+        android:orderInCategory="100"
+        android:title="@string/action_share"
+        app:actionProviderClass="id.gits.dprkita.utils.view.DynamicShareActionProvider"
+        app:showAsAction="always" />
+
+</menu>

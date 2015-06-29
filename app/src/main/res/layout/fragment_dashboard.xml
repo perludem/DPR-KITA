@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <fr.castorflex.android.smoothprogressbar.SmoothProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/progressbar"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/include"
+        android:layout_marginBottom="-7dp"
+        android:layout_marginTop="-7dp"
+        android:background="@color/white"
+        android:indeterminate="true"
+        app:spb_background="@color/white"
+        app:spb_colors="@array/color_progress"
+        app:spb_interpolator="spb_interpolator_decelerate"
+        app:spb_mirror_mode="false"
+        app:spb_progressiveStart_speed="1.5"
+        app:spb_progressiveStop_speed="4.4"
+        app:spb_reversed="false"
+        app:spb_sections_count="4"
+        app:spb_speed="1.1"
+        app:spb_stroke_separator_length="4dp"
+        app:spb_stroke_width="3dp" />
+    </LinearLayout>
+    <id.gits.dprkita.utils.view.SlidingTabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:elevation="2dp" />
+
+    <!--<include-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--layout="@layout/frame_shadow"-->
+    <!--android:layout_gravity="center_horizontal" />-->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="?android:windowContentOverlay" />
+</LinearLayout>

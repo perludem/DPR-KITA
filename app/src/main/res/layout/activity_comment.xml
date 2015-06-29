@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.gits.dprkita.activity.CommentActivity">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/toolbar_default" />
+
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableRecyclerView
+        android:id="@+id/re_comment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/lin_comment"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/include"
+
+        android:focusable="true"
+        android:scrollbars="vertical"
+        android:visibility="visible" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_alignBottom="@+id/re_comment"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/bluegray700" />
+
+    <LinearLayout
+        android:id="@+id/lin_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#F5F5F5"
+        android:gravity="top"
+        android:paddingBottom="8dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="8dp">
+
+        <EditText
+
+            android:id="@+id/commentText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:hint="Beri Komentar"
+            android:inputType="textCapSentences"
+            android:singleLine="false"
+            android:textColor="@color/black"
+            android:textColorHint="@color/grey100" />
+
+        <android.widget.IconButton
+            android:id="@+id/buttonSend"
+            style="@style/Widget.AppCompat.ActionButton"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            android:text="{fa_send-o}"
+            android:textColor="@color/bluegray700" />
+    </LinearLayout>
+
+
+    <id.gits.dprkita.utils.view.MyProgressView
+        android:id="@+id/view_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/view"
+        android:layout_alignTop="@+id/re_comment"
+        android:background="@color/background_material_light"
+        android:gravity="center"
+        android:visibility="visible" />
+
+
+    <fr.castorflex.android.smoothprogressbar.SmoothProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/progressbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/include"
+        android:layout_marginTop="-8dp"
+        android:indeterminate="true"
+        app:spb_colors="@array/color_progress"
+        app:spb_interpolator="spb_interpolator_acceleratedecelerate"
+        app:spb_mirror_mode="false"
+        app:spb_progressiveStart_activated="true"
+        app:spb_progressiveStart_speed="1.5"
+        app:spb_progressiveStop_speed="3.4"
+        app:spb_reversed="false"
+        app:spb_sections_count="4"
+        app:spb_speed="1.1"
+        app:spb_stroke_separator_length="4dp"
+        app:spb_stroke_width="3dp" />
+
+</RelativeLayout>

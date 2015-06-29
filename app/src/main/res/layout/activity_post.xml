@@ -1,0 +1,125 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="id.gits.dprkita.activity.PostActivity">
+
+    <include layout="@layout/toolbar_default" />
+
+    <LinearLayout
+        android:id="@+id/pilih_komisi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/list_komisi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_row"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tv_komisi"
+                style="@style/Base.TextAppearance.AppCompat.Caption"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="PILIH KOMISI"
+                android:textAppearance="@style/TextAppearance.FontPath.Bold"
+                android:textColor="@color/bluegray700"
+                android:textSize="15sp" />
+
+            <ImageButton
+                android:id="@+id/img_arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="-1dp"
+            android:background="@color/grey500" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lin_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/list_rl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_row"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/select_rl"
+                style="@style/Base.TextAppearance.AppCompat.Caption"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:text="PILIH LINGKUP"
+                android:textAppearance="@style/TextAppearance.FontPath.Bold"
+                android:textColor="@color/bluegray700"
+                android:textSize="15sp" />
+
+            <ImageButton
+                android:id="@+id/img_arrow_rl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="-1dp"
+            android:background="@color/grey500" />
+    </LinearLayout>
+
+    <id.gits.dprkita.utils.view.MyProgressView
+        android:id="@+id/view_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_material_light"
+        android:gravity="center"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/ev_post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:focusable="true"
+        android:gravity="top"
+        android:hint="Tuliskan isi pesan Anda"
+        android:padding="16dp" />
+
+    <ImageView
+        android:id="@+id/img_attach"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+</LinearLayout>
